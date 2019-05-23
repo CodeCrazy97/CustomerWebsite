@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset=utf-8>
+        <title>Find Orders</title>
+        <link rel="stylesheet" type="text/css" href="cmstyles.css">
+    </head>
+    <body>
+        <header>
+            <img img src="modelcars.jpg" style="float:right;width:75px;height:75px;">
+            <h3 class="title">Classic Models</h3>
+        </header>
+        <nav>
+            <h2>Links</h2>
+            <h4><a href="test2.html">Classic Models Home</a></h4>
+            <h4><a href="addcustomer.html">Add a new Customer</a></h4>
+            <h4><a href="deletecustomer.html">Delete a Customer</a></h4>             
+            <h4><a href="tablequery.php">Find Contact Information</a></h4>
+            <h4><a href="ordersquery.html">Display Orders</a></h4>   
+
+        </nav>
+        <main>
+            <h2>Search for all Orders of a Particular Product</h2>
+            <br>
+            <br>
+            <h4>
+                <br>
+                <br>
+                <br>
+                <br>
+                <form action="ordersquery.php" method="post">
+                    <label for="productCode">Product Code: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="text" name="productCode" id="productCode" required="required"><br><br>
+                    <input type="submit">&nbsp;&nbsp;<input type="reset">
+                </form>
+
+            </h4>
+        </main>
+        <footer>
+            <br>
+            <br>
+            <br>
+            <br>
+            Ethan Vaughan
+            <br>
+            Test 2 Take-Home
+            <br>
+            April 10, 2018
+        </footer>
+    </body>
+</html>
+
+
